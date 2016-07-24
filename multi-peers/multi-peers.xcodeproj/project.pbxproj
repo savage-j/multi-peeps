@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0B8F811D3AF88600F438B2 /* ConversationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0B8F801D3AF88600F438B2 /* ConversationTableViewController.swift */; };
+		6CB0F53D1D45466A007FA17F /* ConversationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB0F53C1D45466A007FA17F /* ConversationViewCell.swift */; };
+		6CB0F53F1D455153007FA17F /* ActiveUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB0F53E1D455153007FA17F /* ActiveUsersTableViewController.swift */; };
 		6CE3F1281D35362D0083CFBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3F1271D35362D0083CFBC /* AppDelegate.swift */; };
 		6CE3F12A1D35362D0083CFBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE3F1291D35362D0083CFBC /* ViewController.swift */; };
 		6CE3F12D1D35362D0083CFBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE3F12B1D35362D0083CFBC /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C0B8F801D3AF88600F438B2 /* ConversationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationTableViewController.swift; sourceTree = "<group>"; };
+		6CB0F53C1D45466A007FA17F /* ConversationViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewCell.swift; sourceTree = "<group>"; };
+		6CB0F53E1D455153007FA17F /* ActiveUsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveUsersTableViewController.swift; sourceTree = "<group>"; };
 		6CE3F1241D35362D0083CFBC /* multi-peers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multi-peers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE3F1271D35362D0083CFBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CE3F1291D35362D0083CFBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				6CE3F12E1D35362D0083CFBC /* Assets.xcassets */,
 				6CE3F1301D35362D0083CFBC /* LaunchScreen.storyboard */,
 				6CE3F1331D35362D0083CFBC /* Info.plist */,
+				6C0B8F801D3AF88600F438B2 /* ConversationTableViewController.swift */,
+				6CB0F53C1D45466A007FA17F /* ConversationViewCell.swift */,
+				6CB0F53E1D455153007FA17F /* ActiveUsersTableViewController.swift */,
 			);
 			path = "multi-peers";
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CE3F12A1D35362D0083CFBC /* ViewController.swift in Sources */,
+				6CB0F53F1D455153007FA17F /* ActiveUsersTableViewController.swift in Sources */,
 				6CE3F1281D35362D0083CFBC /* AppDelegate.swift in Sources */,
+				6C0B8F811D3AF88600F438B2 /* ConversationTableViewController.swift in Sources */,
+				6CB0F53D1D45466A007FA17F /* ConversationViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				6CE3F14E1D35362D0083CFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CE3F14F1D35362D0083CFBC /* Build configuration list for PBXNativeTarget "multi-peersTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				6CE3F1511D35362D0083CFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CE3F1521D35362D0083CFBC /* Build configuration list for PBXNativeTarget "multi-peersUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				6CE3F1541D35362D0083CFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
